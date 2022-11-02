@@ -1,0 +1,14 @@
+.logo{
+    width: 150px;
+}
+
+.icono{
+    width: 22px;
+    margin-right: 5px;
+}
+
+.headerLogo{
+margin-top: 15px;
+margin-left: 15px;
+display: flex;
+}

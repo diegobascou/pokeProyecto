@@ -1,0 +1,58 @@
+.listaPokemones{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border: 1px solid dodgerblue;
+    border-radius: 10px;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.50) 5px 5px 15px;
+  }
+
+  .pokeCard{
+    display: flex;
+    flex-direction: column;
+  }
+
+  .pokeId{
+    display: flex;
+    margin: 0;
+    height: 15px;
+    color: gray;
+    font-size: 10px;
+    justify-content: flex-end;
+    padding: 3px;
+    padding-right: 5px;
+  }
+
+.pokeImages{
+  display: flex;
+  padding: 20px;
+  min-width: 70px;
+  min-height: 80px;
+  padding-top: 0;
+  padding-bottom: 0;
+  align-items: center;
+}
+
+.pokeImage{
+    height: 80%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.pokeName{
+    display: flex;
+  text-align: center;
+  font-size: 10px;
+  background-color: green;
+  border-radius: 0px 0px 10px 10px;
+  color: #e0e0e0;
+  height: 30px;
+ align-items: center; 
+ justify-content: center;
+}
+
+.pokeName1{
+    margin: 0;
+}
